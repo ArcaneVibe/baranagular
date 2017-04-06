@@ -3,9 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Your mom is so hot</title>
-        <script src="node_modules/angular/angular.js"></script>
+        <script src="../node_modules/angular/angular.js"></script>
     </head>
-    <body>
+    <body ng-controller="bestControllerEver">
         <p>My milkshake brings all the boys to the yard.</p>
+        <div ng-repeat="lyric in lyrics">
+            <div>and they're like, it's better than yours</div>
+            <div>songName: {{song.Name}}</div>
+        </div>
     </body>
 </html>
